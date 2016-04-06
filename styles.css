@@ -6,9 +6,6 @@ body {
 }
 
 
-*{
-	outline: solid 1px yellow;
-}
 
 
 .header {
@@ -69,13 +66,73 @@ body {
 	color: #ab8a66;
 	text-align: center;
 	text-decoration: underline;
+	font-size: 1.2
 	
 }
 
 .about_intro {
-	font-family: "ethos", sans-serif; 
+	text-align: left;
+	max-width: 700px;
+	float: right;
+	padding-right: 100px;
+	padding-top: 30px;
+	font-family: "butler", sans-serif;
 	color: #c9c9c9;
+	font-size: 1.5em;
+
 	
-	max-width: 1200px;
 	
+	 -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+
+    -webkit-column-gap: 50px; 
+    -moz-column-gap: 50px; 
+    column-gap: 50px;
+
+    -webkit-column-rule: 2px outset white;
+    -moz-column-rule: 2px outset white; 
+    column-rule: 2px outset white;
+	
+	-webkit-column-width: 100px; 
+    -moz-column-width: 100px; 
+    column-width: 100px;
 }
+
+.patrick {
+	font-family: "moon", sans-serif;
+	float: left;
+	color: #ab8a66;
+	padding-left: 200px;
+	font-size: 2EM;
+	max-width: 100px;
+	padding-top: 60px;
+}
+
+
+
+
+/* font-family: "butler", sans-serif; 
+	color: #c9c9c9;
+	 -webkit-column-count: 2;
+	font-size: 1.5em;
+	 
+	 -webkit-column-rule-width: 1px;
+	 -webkit-column-rule-style: outset; 
+	 -webkit-column-rule-color: white;
+	  -webkit-column-width: 50px; 
+    -moz-column-width: 50px;  
+    column-width: 50px;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
