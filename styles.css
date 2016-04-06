@@ -29,6 +29,7 @@ body {
 	margin-top: 32px;
 	font-size: 1.1em;
 	display: block;
+	align-content: right;
 }
 
 .links a {
@@ -56,6 +57,25 @@ body {
 }
 
 .photo {
-	height: 500px;
+	max-height: 100%;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+	align-content: center;
+}
+
+.about {
+	font-family: "moon", san-serif;
+	color: #ab8a66;
+	text-align: center;
+	text-decoration: underline;
+	
+}
+
+.about_intro {
+	font-family: "ethos", sans-serif; 
+	color: #c9c9c9;
+	
+	max-width: 1200px;
 	
 }
