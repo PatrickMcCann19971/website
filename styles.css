@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #2d303a;
+	margin: 0;
+}
+
+
+*{
+	outline: solid 1px yellow;
+}
+
+
+.header {
+	Background-color: #171717;
+	height: 85px;
+	color: #ab8a66;
+}
+
+.nav {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.links {
+	float: right; 
+	font-family: "moon", sans-serif;
+	margin-top: 32px;
+	font-size: 1.1em;
+	display: block;
+}
+
+.links a {
+	text-decoration: none;
+	color: #ab8a66;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+.links: hover {
+	background-color: red;
+}
+
+.dash {
+	color: #3c3c3c;
+	padding-right: 15px;
+	padding-left: 40px;
+}
+
+.pbmlogo {
+	padding-left: 50px;
+	margin-top: 7.5px;
+	float: left;
+}
+
+.photo {
+	height: 500px;
+	
+}
