@@ -1,0 +1,32 @@
+body {
+	background-color: #2d303a;
+	margin: 0;
+}
+
+.header {
+	Background-color: #171717;
+	height: 85px;
+	color: #ab8a66;
+}
+
+.pbmlogo {
+	padding-left: 50px;
+	margin-top: 7.5px;
+	float: left;
+}
+
+.links {
+	float: right; 
+	font-family: "moon", sans-serif;
+	margin-top: 32px;
+	padding-right: 200px;
+	font-size: 1.1em;
+	display: block;
+}
+
+.links a {
+	text-decoration: none;
+	color: #ab8a66;
+	
+}
+

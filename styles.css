@@ -7,7 +7,6 @@ body {
 
 
 
-
 .header {
 	Background-color: #171717;
 	height: 85px;
@@ -26,7 +25,8 @@ body {
 	margin-top: 32px;
 	font-size: 1.1em;
 	display: block;
-	align-content: right;
+	
+	
 }
 
 .links a {
@@ -54,19 +54,18 @@ body {
 }
 
 .photo {
-	max-height: 100%;
 	max-width: 100%;
-	display: block;
+	
 	margin: auto;
 	align-content: center;
 }
 
-.about {
+.subheading {
 	font-family: "moon", san-serif;
 	color: #ab8a66;
 	text-align: center;
 	text-decoration: underline;
-	font-size: 1.2
+	font-size: 1.2;
 	
 }
 
@@ -78,7 +77,8 @@ body {
 	padding-top: 30px;
 	font-family: "butler", sans-serif;
 	color: #c9c9c9;
-	font-size: 1.5em;
+	font-size: 1.4em;
+	
 
 	
 	
@@ -103,10 +103,20 @@ body {
 	font-family: "moon", sans-serif;
 	float: left;
 	color: #ab8a66;
-	padding-left: 200px;
+	padding-left: 250px;
 	font-size: 2EM;
 	max-width: 100px;
-	padding-top: 60px;
+	padding-top: 50px;
+}
+
+.about_divider {
+	height: 10px;
+	color: red;
+	float:: center;
+	align-content:center;
+	padding-top: 270px;
+	
+	
 }
 
 
